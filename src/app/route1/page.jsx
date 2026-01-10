@@ -1,11 +1,32 @@
-"use client";
+'use client';
 
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 const Page = () => {
+  const router = useRouter();
+  const [countdown, setCountdown] = useState(null);
+
+  useEffect(() => {
+    let timer;
+
+    if (countdown !== null) {
+      if (countdown === 0) {
+        router.push("/route2");
+      } else {
+        timer = setTimeout(() => setCountdown(countdown - 1), 1000);
+      }
+    }
+
+    return () => clearTimeout(timer);
+  }, [countdown, router]);
+
   const handleClick = (type) => {
-    alert(`You clicked: ${type}`);
-    // You can replace this with navigation or any other logic
+    if (type === "Tfi") {
+      setCountdown(2); // start countdown from 2
+    } else if (type === "Cricket") {
+      alert("You clicked Cricket!");
+    }
   };
 
   return (
@@ -34,6 +55,13 @@ const Page = () => {
           Cricket
         </button>
       </div>
+
+      {/* Countdown message */}
+      {countdown !== null && (
+        <p style={{ marginTop: 20, color: "green", fontWeight: "bold" }}>
+          You clicked Tfi! Redirecting in {countdown}...
+        </p>
+      )}
     </div>
   );
 };

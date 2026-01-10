@@ -9,14 +9,14 @@
 9. pass
 10. pass
 
-tfi
+tfi / route2
 - of the day (movie, song, dialogue)
 - guess movie by (pic, dialogue)
 - detailed question of film & its background - quiz : X and Y
 - id the connection between images
 - id the (movie, song) by images (funny mimages)
 - controversy -> film
-- negative description -> movie
+- sarcastic description -> movie
 - character by scene
 - guess dialogue by pic
 - fill the table with combinations(actor, actress, music director, director, crew) : who fills first = winner
@@ -32,7 +32,7 @@ tfi
 - random quiz
 - all mix fruit quiz
 
-cricket
+cricket / route3
 
 pass
 
