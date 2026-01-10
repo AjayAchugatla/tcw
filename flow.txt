@@ -1,0 +1,39 @@
+1. welcomee page
+2. switch page (tfi, cricket)
+3. website footer
+4. pass
+5. pass
+6. pass
+7. pass
+8. pass
+9. pass
+10. pass
+
+tfi
+- of the day (movie, song, dialogue)
+- guess movie by (pic, dialogue)
+- detailed question of film & its background - quiz : X and Y
+- id the connection between images
+- id the (movie, song) by images (funny mimages)
+- controversy -> film
+- negative description -> movie
+- character by scene
+- guess dialogue by pic
+- fill the table with combinations(actor, actress, music director, director, crew) : who fills first = winner
+- english dialogue - guess dialogue and scene and movie
+- (debu movie, list all special guest appearances, location setting from movie, antagonists and protagonists names,  directors latest movie, item song heroine)
+- ID the movie by taglines
+- guess movie by combination (actor, actresses, previous choices, ) + reason
+- childhood pic to author
+- character name -> movie
+
+- name any 5 X
+
+- random quiz
+- all mix fruit quiz
+
+cricket
+
+pass
+
+tribute page

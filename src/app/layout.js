@@ -23,6 +23,11 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <footer>
+          <div style={{ textAlign: "center", padding: "20px 0" }}>
+            <p>Website footer</p>
+          </div>
+        </footer>
       </body>
     </html>
   );
